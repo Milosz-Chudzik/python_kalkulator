@@ -1,4 +1,4 @@
-from back_end import *
+from kalkulator_backend import *
 
 #printer en meny som vises på oppstart av kalkulatoren
 def printMeny():
@@ -24,7 +24,7 @@ def utfoerMenyvalg(valgtTall):
     elif valgtTall == "3":
         gange()
     elif valgtTall == "4":
-        unfinished()
+        deling()
         # kjører funskjoner basert på hvilket tall som er valgt
     elif valgtTall == "5":
         bekreftelse = input("Er du sikker på at du vil avslutte? J/N ")
