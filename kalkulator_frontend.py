@@ -5,8 +5,8 @@ def printMeny():
     print("------------------- Kalkulator -------------------")
     print("| 1. Legg sammen (pluss)                         |")
     print("| 2. Trekk fra   (minus)                         |")
-    print("| 3. Gange       (***TODO***)                    |")
-    print("| 4. Dele        (***TODO***)                    |")
+    print("| 3. Gange       (gange)                         |")
+    print("| 4. Dele        (deling)                        |")
     print("| 5. Avslutt                                     |")
     print("--------------------------------------------------")
     menyvalg = input("Velg operasjon fra menyen: ")
@@ -24,7 +24,7 @@ def utfoerMenyvalg(valgtTall):
     elif valgtTall == "3":
         gange()
     elif valgtTall == "4":
-        deling()
+        divisjon()
         # kjører funskjoner basert på hvilket tall som er valgt
     elif valgtTall == "5":
         bekreftelse = input("Er du sikker på at du vil avslutte? J/N ")
