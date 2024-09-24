@@ -16,3 +16,13 @@ def trekkFra():
 def gange():
     produkt = 3*3
     TODO: Gjøre ferdig '''
+
+
+def divisjon():
+    tall1 = input("Skriv inn det første tallet: ")
+    tall2 = input("Skriv inn det andre tallet: ")
+    if tall2 != 0:                      #gjør sånn at det andre tallet ikke kan være 0
+        kvotient = int(tall1) / int(tall2)
+        print(f'{tall2} / {tall2} = {kvotient}')  #tar tall1 dividert på tall2
+    else:
+        print("Ugyldig division, det andre tallet kan ikke være 0.")
