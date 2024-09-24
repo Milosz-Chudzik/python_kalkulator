@@ -24,7 +24,7 @@ def utfoerMenyvalg(valgtTall):
     elif valgtTall == "3":
         gange()
     elif valgtTall == "4":
-        deling()
+        divisjon()
         # kjører funskjoner basert på hvilket tall som er valgt
     elif valgtTall == "5":
         bekreftelse = input("Er du sikker på at du vil avslutte? J/N ")
